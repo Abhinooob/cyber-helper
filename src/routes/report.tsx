@@ -32,7 +32,7 @@ export const Route = createFileRoute("/report")({
       },
     ],
   }),
-  component: ReportWizard;
+  component: ReportWizard,
 });
 
 const STEPS = ["Category", "Incident", "Evidence", "Summary"];
