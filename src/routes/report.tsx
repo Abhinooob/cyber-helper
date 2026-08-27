@@ -18,7 +18,7 @@ import {
 export const Route = createFileRoute("/report")({
   head: () => ({
     meta: [
-      { title: "Guided Cyber Fraud Report Builder | Cyber Helper from SafeTrace" },
+      { title: "Guided Cyber Fraud Report Builder | Cyber Helper" },
       {
         name: "description",
         content:
@@ -92,7 +92,7 @@ function ReportWizard() {
       <p className="label-eyebrow">Guided report builder</p>
       <h1 className="mt-3 text-3xl font-bold md:text-4xl">Let&apos;s prepare your complaint</h1>
       <p className="mt-3 text-muted-foreground">
-        Nothing here is submitted anywhere. Cyber Helper from SafeTrace only organises your case so the official form
+        Nothing here is submitted anywhere. Cyber Helper only organises your case so the official form
         is quick. Never enter OTPs, passwords or upload ID documents on this site.
       </p>
 
@@ -174,7 +174,7 @@ function ReportWizard() {
           <div className="space-y-5">
             <h2 className="text-xl font-semibold">Tell us what happened</h2>
             <p className="text-sm text-muted-foreground">
-              The portal needs at least 200 characters. Answer in your own words — Cyber Helper from SafeTrace turns
+              The portal needs at least 200 characters. Answer in your own words — Cyber Helper turns
               this into a structured description.
             </p>
             <div className="grid gap-4">

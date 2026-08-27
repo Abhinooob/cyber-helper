@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Cyber Helper from SafeTrace — Cyber Fraud Reporting Assistant" },
+      { title: "Cyber Helper — Cyber Fraud Reporting Assistant" },
       {
         name: "description",
         content:
-          "Cyber Helper from SafeTrace prepares your cyber fraud complaint and guides you to India's official National Cyber Crime Reporting Portal.",
+          "Cyber Helper prepares your cyber fraud complaint and guides you to India's official National Cyber Crime Reporting Portal.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -136,7 +136,7 @@ function RootComponent() {
               <span className="grid size-8 place-items-center rounded-lg bg-[image:var(--gradient-accent)] font-mono text-sm font-bold text-primary-foreground">
                 CH
               </span>
-              <span className="font-display text-lg font-semibold tracking-tight">Cyber Helper from SafeTrace</span>
+              <span className="font-display text-lg font-semibold tracking-tight">Cyber Helper</span>
             </Link>
             <nav className="flex flex-1 flex-wrap items-center gap-1 text-sm">
               {NAV.map((item) => (
@@ -168,7 +168,7 @@ function RootComponent() {
         <footer className="border-t border-border/70 py-8">
           <div className="mx-auto max-w-6xl px-4 text-sm text-muted-foreground">
             <p>
-              Cyber Helper from SafeTrace is an independent assistant. It does not file complaints and is not
+              Cyber Helper is an independent assistant. It does not file complaints and is not
               affiliated with any government body. All complaints must be submitted on{" "}
               <a
                 href="https://cybercrime.gov.in"
@@ -181,6 +181,7 @@ function RootComponent() {
               .
             </p>
             <p className="mt-2">Never upload identity documents or share OTPs on this site.</p>
+            <p className="mt-4 text-xs text-muted-foreground/70">made by Abhinav Sorout and Moksh Goel</p>
           </div>
         </footer>
       </div>
