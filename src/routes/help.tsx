@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/help")({
   head: () => ({
     meta: [
-      { title: "Cyber Crime Helplines & Prevention Tips | Cyber Helper from SafeTrace" },
+      { title: "Cyber Crime Helplines & Prevention Tips | Cyber Helper" },
       {
         name: "description",
         content:

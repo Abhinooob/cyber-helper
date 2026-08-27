@@ -6,7 +6,7 @@ import { OFFICIAL_STEPS, NCRP_URL } from "@/lib/safetrace-data";
 export const Route = createFileRoute("/guide")({
   head: () => ({
     meta: [
-      { title: "The 11 Steps to File a Cyber Crime Complaint | Cyber Helper from SafeTrace" },
+      { title: "The 11 Steps to File a Cyber Crime Complaint | Cyber Helper" },
       {
         name: "description",
         content:
@@ -31,7 +31,7 @@ function Guide() {
         Filing on <span className="text-gradient">cybercrime.gov.in</span>, step by step
       </h1>
       <p className="mt-4 text-lg text-muted-foreground">
-        This is the process on India's National Cyber Crime Reporting Portal. Cyber Helper from SafeTrace prepares
+        This is the process on India's National Cyber Crime Reporting Portal. Cyber Helper prepares
         steps 5 to 9 for you so the form goes quickly.
       </p>
 
@@ -60,7 +60,7 @@ function Guide() {
 
       <div className="panel mt-10 flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-muted-foreground">
-          Let Cyber Helper from SafeTrace prepare your category, description and evidence list first.
+          Let Cyber Helper prepare your category, description and evidence list first.
         </p>
         <div className="flex flex-wrap gap-3">
           <Button asChild variant="hero">
