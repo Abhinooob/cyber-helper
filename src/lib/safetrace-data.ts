@@ -205,7 +205,7 @@ export const OFFICIAL_STEPS = [
   {
     n: 6,
     title: "Enter the incident details",
-    body: "Describe when it happened, what happened, how it happened and who or what was involved. The portal requires at least 200 characters \u2014 SafeTrace drafts this for you.",
+    body: "Describe when it happened, what happened, how it happened and who or what was involved. The portal requires at least 200 characters \u2014 Cyber Helper from SafeTrace drafts this for you.",
   },
   {
     n: 7,

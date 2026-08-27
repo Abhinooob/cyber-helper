@@ -13,13 +13,13 @@ import { NCRP_URL, PREVENTION_TIPS } from "@/lib/safetrace-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SafeTrace — Report Cyber Fraud in India, Step by Step" },
+      { title: "Cyber Helper from SafeTrace — Report Cyber Fraud in India, Step by Step" },
       {
         name: "description",
         content:
           "Assess your case, organise evidence and get a ready-to-paste complaint description, then file it on India's official cyber crime portal. Call 1930 if money was just lost.",
       },
-      { property: "og:title", content: "SafeTrace — Cyber Fraud Reporting Assistant" },
+      { property: "og:title", content: "Cyber Helper from SafeTrace — Cyber Fraud Reporting Assistant" },
       {
         property: "og:description",
         content:
@@ -48,7 +48,7 @@ function Home() {
           do next.
         </h1>
         <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-          SafeTrace walks you through the official reporting process, organises your evidence and
+          Cyber Helper from SafeTrace walks you through the official reporting process, organises your evidence and
           writes your incident description — then hands you off to India's official National Cyber
           Crime Reporting Portal to submit the complaint.
         </p>
@@ -84,9 +84,9 @@ function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-10">
-        <h2 className="text-2xl font-semibold md:text-3xl">How SafeTrace fits in</h2>
+        <h2 className="text-2xl font-semibold md:text-3xl">How Cyber Helper from SafeTrace fits in</h2>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          SafeTrace never files your complaint and never asks for your ID or OTP. It prepares
+          Cyber Helper from SafeTrace never files your complaint and never asks for your ID or OTP. It prepares
           everything so the official form takes minutes instead of hours.
         </p>
         <ol className="mt-8 grid gap-4 md:grid-cols-5">
@@ -106,7 +106,7 @@ function Home() {
             {
               icon: ClipboardList,
               title: "Fraud category selection",
-              body: "Answer a few plain questions and SafeTrace picks the right route — Financial Fraud or Other Cyber Crime.",
+              body: "Answer a few plain questions and Cyber Helper from SafeTrace picks the right route — Financial Fraud or Other Cyber Crime.",
               to: "/report" as const,
               cta: "Assess my case",
             },
