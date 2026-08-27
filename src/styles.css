@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * SafeTrace design system — dark "operations console" theme.
+ * Cyber Helper from SafeTrace design system — dark "operations console" theme.
  * All colors are oklch semantic tokens. Never hardcode colors in components.
  */
 

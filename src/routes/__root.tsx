@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SafeTrace — Cyber Fraud Reporting Assistant" },
+      { title: "Cyber Helper from SafeTrace — Cyber Fraud Reporting Assistant" },
       {
         name: "description",
         content:
-          "SafeTrace prepares your cyber fraud complaint and guides you to India's official National Cyber Crime Reporting Portal.",
+          "Cyber Helper from SafeTrace prepares your cyber fraud complaint and guides you to India's official National Cyber Crime Reporting Portal.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -134,9 +134,9 @@ function RootComponent() {
           <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
             <Link to="/" className="flex items-center gap-2">
               <span className="grid size-8 place-items-center rounded-lg bg-[image:var(--gradient-accent)] font-mono text-sm font-bold text-primary-foreground">
-                ST
+                CH
               </span>
-              <span className="font-display text-lg font-semibold tracking-tight">SafeTrace</span>
+              <span className="font-display text-lg font-semibold tracking-tight">Cyber Helper from SafeTrace</span>
             </Link>
             <nav className="flex flex-1 flex-wrap items-center gap-1 text-sm">
               {NAV.map((item) => (
@@ -168,7 +168,7 @@ function RootComponent() {
         <footer className="border-t border-border/70 py-8">
           <div className="mx-auto max-w-6xl px-4 text-sm text-muted-foreground">
             <p>
-              SafeTrace is an independent assistant. It does not file complaints and is not
+              Cyber Helper from SafeTrace is an independent assistant. It does not file complaints and is not
               affiliated with any government body. All complaints must be submitted on{" "}
               <a
                 href="https://cybercrime.gov.in"
